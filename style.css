@@ -56,7 +56,7 @@ main {
 
 .current-temperature {
   font-size: 48px;
-  color: rgb(226, 142, 158);
+  color: #f2bed1;
 }
 
 .current-weather {
@@ -65,7 +65,8 @@ main {
 }
 
 .current-city {
-  color: rgb(226, 142, 158);
+  display: block;
+  color: #f2bed1;
   font-family: "Delius Swash Caps", cursive;
   font-size: 38px;
   font-weight: 900;
@@ -84,9 +85,9 @@ main {
 
 .current-temperature-icon {
   position: relative;
-  top: -8px;
+  top: 15px;
   font-size: 40px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .current-temperature-value {
